@@ -1,2 +1,2 @@
-# YVEETE
+# YVETTE
 my website
