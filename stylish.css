@@ -265,22 +265,83 @@ footer {
   }
 }
 
-/* Mobile Layout */
+/* ===== Desktop Only Layout ===== */
 
-@media (max-width: 800px) {
-  .layout {
-    grid-template-columns: 1fr;
-  }
+html {
+  min-width: 1200px;
+}
 
-  .header h1 {
-    font-size: 24px;
-  }
+body {
+  min-width: 1200px;
+  padding: 25px 0;
+}
 
-  body {
-    padding: 10px;
-  }
+/* Fixed desktop website width */
 
-  .navigation a {
-    padding: 7px 10px;
-  }
+.website {
+  width: 1150px;
+  max-width: none;
+  margin: 0 auto;
+}
+
+/* Three-column desktop layout */
+
+.layout {
+  display: grid;
+  grid-template-columns: 210px 700px 210px;
+  gap: 15px;
+  align-items: start;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+/* Navigation */
+
+.navigation {
+  width: 100%;
+  padding: 12px;
+}
+
+/* Sidebars */
+
+.sidebar {
+  width: 210px;
+}
+
+/* Main diary */
+
+main {
+  width: 700px;
+  min-width: 0;
+}
+
+.reflection {
+  padding: 25px;
+}
+
+.reflection p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+/* Decoration */
+
+.box {
+  border: 2px dashed #f3a8d1;
+  box-shadow: 4px 4px 0 #f8cce5;
+}
+
+/* Desktop hover effects */
+
+.box:hover {
+  box-shadow: 5px 5px 12px #eeb6d8;
 }
