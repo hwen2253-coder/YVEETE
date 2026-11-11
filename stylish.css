@@ -350,7 +350,7 @@ main {
 
 .reflection-image {
   display: block;
-  width: 100%;
+  width: 400px;
   height: auto;
   margin: 20px auto;
   border: 3px solid #ffc0df;
