@@ -345,3 +345,15 @@ main {
 .box:hover {
   box-shadow: 5px 5px 12px #eeb6d8;
 }
+
+/* Week 6 Screenshot */
+
+.reflection-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border: 3px solid #ffc0df;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 #f5c6e2;
+}
